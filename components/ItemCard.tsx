@@ -9,6 +9,7 @@ const ItemCard = ({ item }: any) => {
                 src={item.photo}
                 alt={item.name}
                 className="rounded-lg h-40 w-full object-cover mb-4"
+                loading='lazy'
             />
             <span
                 className={`px-3 py-1 text-sm rounded-full mb-2 self-start ${item.type === "Lost"

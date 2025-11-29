@@ -69,6 +69,7 @@ export default function UploadForm() {
                                 src={images[index].preview}
                                 alt="preview"
                                 className="w-full h-full object-cover"
+                                loading="lazy"
                             />
                         ) : null}
                     </div>
