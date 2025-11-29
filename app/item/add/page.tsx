@@ -1,10 +1,10 @@
 'use client'
-import { useState } from "react";
-import ItemAddress from "@/components/itemForm/ItemAddress";
+// import ItemAddress from "@/components/itemForm/ItemAddress";
 import UploadForm from "@/components/itemForm/UploadForm";
 import ReportType from "@/components/itemForm/ReportType";
 import ItemDetails from "@/components/itemForm/ItemDetails";
 import ItemMap from "@/components/ItemMap";
+import { useState } from "react";
 
 export default function page() {
     const [step, setStep] = useState(1);
