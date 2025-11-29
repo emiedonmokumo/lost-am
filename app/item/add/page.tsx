@@ -6,7 +6,7 @@ import ItemDetails from "@/components/itemForm/ItemDetails";
 import ItemMap from "@/components/ItemMap";
 import { useState } from "react";
 
-export default function page() {
+export default function Page() {
     const [step, setStep] = useState(1);
 
     const renderStep = () => {
